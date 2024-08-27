@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.demo-editor {
+    font-family: sans-serif;
+    display: flex;
+    min-height: 200vh;
+}
+.demo-editor h1 {
+    margin: 4px;
+}
+.demo-editor .diffs {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    display: flex;
+}
+.demo-editor .diffs .compare-container {
+    width: auto;
+    position: relative;
+}
+.demo-editor .diffs .compare-container #mergely {
+    height: 750px;
+}
+.demo-editor .diffs footer {
+    display: flex;
+}
